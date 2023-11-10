@@ -46,16 +46,16 @@ export default function Textarea(props) {
           rows="8"
         ></textarea>
       </div>
-      <button disabled ={text.length === 0}  className="btn btn-primary mx-2" onClick={upperCase}>
+      <button disabled ={text.length === 0}  className="btn btn-primary mx-2 my-2" onClick={upperCase}>
         Convert to Uppercase
       </button>
-      <button disabled ={text.length === 0} className="btn btn-primary mx-2" onClick={lowerCase}>
+      <button disabled ={text.length === 0} className="btn btn-primary mx-2 my-2" onClick={lowerCase}>
         Convert to lowercase
       </button>
-      <button disabled ={text.length === 0} className="btn btn-primary mx-2" onClick={reset}>
+      <button disabled ={text.length === 0} className="btn btn-primary mx-2 my-2" onClick={reset}>
         Reset
       </button>
-      <button disabled ={text.length === 0} className="btn btn-primary mx-2" onClick={copyText}>
+      <button disabled ={text.length === 0} className="btn btn-primary mx-2 my-2" onClick={copyText}>
         Copy Text
       </button>
       <div className="container my-3" style={{color: props.mode === 'dark' ? 'white' : 'black'}} >
